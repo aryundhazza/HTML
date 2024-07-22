@@ -1,0 +1,27 @@
+h4 {
+    color: yellow;
+}
+
+h5 {
+    color: blueviolet;
+}
+
+h1 {
+    font-style: italic;
+    font-family: "impact", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h1:hover {
+    width: 900px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px double black;
+}
+
+.note::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
